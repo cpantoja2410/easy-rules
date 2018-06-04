@@ -1,7 +1,7 @@
 ***
 
 <div align="center">
-    <b><em>Easy Rules</em></b><br>
+    <b><em>Easy Rules (fork for Java 6)</em></b><br>
     The simple, stupid rules engine for Java&trade;
 </div>
 
