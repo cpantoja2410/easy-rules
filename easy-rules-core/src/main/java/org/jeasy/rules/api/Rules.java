@@ -24,6 +24,7 @@
 package org.jeasy.rules.api;
 
 import org.jeasy.rules.core.RuleProxy;
+import org.jeasy.rules.util.Objects;
 
 import java.util.*;
 
@@ -35,7 +36,7 @@ import java.util.*;
  */
 public class Rules implements Iterable<Rule> {
 
-    private Set<Rule> rules = new TreeSet<>();
+    private Set<Rule> rules = new TreeSet<Rule>();
 
     /**
      * Create a new {@link Rules} object.
@@ -43,7 +44,7 @@ public class Rules implements Iterable<Rule> {
      * @param rules to register
      */
     public Rules(Set<Rule> rules) {
-        this.rules = new TreeSet<>(rules);
+        this.rules = new TreeSet<Rule>(rules);
     }
 
     /**
